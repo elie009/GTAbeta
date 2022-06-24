@@ -299,6 +299,9 @@
  <Reference Include="UnityEditor">
  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Burst.Unsafe">
+ <HintPath>D:/Unity-Games/GTAbeta/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
+ </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
  </Reference>
@@ -659,13 +662,25 @@
       <Project>{3ba5497d-d8b3-ca7b-89d4-fa48c0dcaa25}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{bcf67213-df88-fb73-d21f-fa7731d4cd63}</Project>
+      <Name>Unity.Burst</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{486c3aad-14a2-72d3-2022-542062dcda35}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Editor.csproj">
+      <Project>{cae3e56d-d1c8-50f5-ec90-ec0f6c573598}</Project>
+      <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{44083aa8-e1e2-f689-f8f7-ea8f451023fb}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Animation.Rigging.csproj">
+      <Project>{d342ec46-6c76-3789-8b48-827e419cd537}</Project>
+      <Name>Unity.Animation.Rigging</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{7c6a90b8-2037-bb31-0ac6-b00c55bf3512}</Project>
@@ -682,6 +697,18 @@
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{bcca3ae6-082d-b805-3639-09376172a50c}</Project>
       <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{396ae87b-ee23-fdcf-c5e2-48e11248da60}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Animation.Rigging.Editor.csproj">
+      <Project>{8463c2cf-db61-a980-a89e-a49ec270e999}</Project>
+      <Name>Unity.Animation.Rigging.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{bcde9e6c-2d4d-2c41-0da5-ec39f96712d2}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
       <Project>{d70228e3-9851-bd7a-6e2c-0fda917c1b10}</Project>

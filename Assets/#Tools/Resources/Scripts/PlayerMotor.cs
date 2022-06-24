@@ -29,6 +29,14 @@ public class PlayerMotor : MonoBehaviour {
 	void Update () 
 	{
 
+		if (Input.GetButton ("Jump_Normal")) {
+			animator.SetBool ("Jump_Normal", true);
+		}
+		else
+		{
+			animator.SetBool("Jump_Normal", false);                
+		}
+
 		if (Input.GetButton ("Jump")) {
 			animator.SetBool ("Jump", true);
 		}
